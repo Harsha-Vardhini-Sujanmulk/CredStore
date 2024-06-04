@@ -1,0 +1,17 @@
+// In VS Code Terminal
+cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+.\mysql -u root -p
+
+
+
+CREATE USER 'sqluser'@'%' IDENTIFIED
+WITH mysql_native_password BY 'password';
+
+GRANT ALL PRIVILEGES ON *.* TO 'sqluser'@'%'
+
+FLUSH PRIVILEGES;
+
+
+mysql>use delta_app;
+mysql>show tables;
+mysql>select * from user;
