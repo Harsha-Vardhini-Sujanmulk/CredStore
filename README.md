@@ -1,3 +1,12 @@
+
+
+
+https://github.com/Harsha-Vardhini-Sujanmulk/CredStore/assets/134298101/d5a05e1c-970e-4ca1-a710-8c59d4c62c37
+
+
+
+
+
 ## Project Summary <br/>
 This Node.js Express application provides a CRUD (Create, Read, Update, Delete) interface for managing user data in a MySQL database. It leverages the following technologies: <br/>
 
